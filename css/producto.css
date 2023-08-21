@@ -1,0 +1,36 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la lista de productos */
+.productos-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    margin: 20px;
+}
+
+.producto img {
+    max-width: 200px;
+}
+
+/* Estilos para el carrito de compras */
+.carrito-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto-carrito {
+    text-align: center;
+    margin: 20px;
+}

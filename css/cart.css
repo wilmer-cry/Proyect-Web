@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .item-name {
+    flex: 1;
+  }
+  .item-price {
+    font-weight: bold;
+    margin-right: 10px;
+  }
